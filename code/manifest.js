@@ -15,6 +15,42 @@ window.BENCH_SURVEY_CONFIG = {
       "rows": [
         {
           "index": 1,
+          "sourceId": "000022",
+          "images": [
+            {
+              "method": "shot",
+              "src": "../random/nhr/shot/000022.png",
+              "filename": "000022.png"
+            },
+            {
+              "method": "objectclear",
+              "src": "../random/nhr/objectclear/000022.png",
+              "filename": "000022.png"
+            },
+            {
+              "method": "omnieraser",
+              "src": "../random/nhr/omnieraser/000022.png",
+              "filename": "000022.png"
+            },
+            {
+              "method": "omnipaint",
+              "src": "../random/nhr/omnipaint/000022.png",
+              "filename": "000022.png"
+            },
+            {
+              "method": "flux-t400-alpha",
+              "src": "../random/nhr/flux-t400-alpha/000022.png",
+              "filename": "000022.png"
+            },
+            {
+              "method": "bg",
+              "src": "../random/nhr/bg/000022.png",
+              "filename": "000022.png"
+            }
+          ]
+        },
+        {
+          "index": 2,
           "sourceId": "000023",
           "images": [
             {
@@ -50,7 +86,7 @@ window.BENCH_SURVEY_CONFIG = {
           ]
         },
         {
-          "index": 2,
+          "index": 3,
           "sourceId": "000047",
           "images": [
             {
@@ -82,42 +118,6 @@ window.BENCH_SURVEY_CONFIG = {
               "method": "bg",
               "src": "../random/nhr/bg/000047.png",
               "filename": "000047.png"
-            }
-          ]
-        },
-        {
-          "index": 3,
-          "sourceId": "000130",
-          "images": [
-            {
-              "method": "shot",
-              "src": "../random/nhr/shot/000130.png",
-              "filename": "000130.png"
-            },
-            {
-              "method": "objectclear",
-              "src": "../random/nhr/objectclear/000130.png",
-              "filename": "000130.png"
-            },
-            {
-              "method": "omnieraser",
-              "src": "../random/nhr/omnieraser/000130.png",
-              "filename": "000130.png"
-            },
-            {
-              "method": "omnipaint",
-              "src": "../random/nhr/omnipaint/000130.png",
-              "filename": "000130.png"
-            },
-            {
-              "method": "flux-t400-alpha",
-              "src": "../random/nhr/flux-t400-alpha/000130.png",
-              "filename": "000130.png"
-            },
-            {
-              "method": "bg",
-              "src": "../random/nhr/bg/000130.png",
-              "filename": "000130.png"
             }
           ]
         },
@@ -236,6 +236,78 @@ window.BENCH_SURVEY_CONFIG = {
         },
         {
           "index": 2,
+          "sourceId": "00093",
+          "images": [
+            {
+              "method": "shot",
+              "src": "../random/rord/shot/00093.png",
+              "filename": "00093.png"
+            },
+            {
+              "method": "objectclear",
+              "src": "../random/rord/objectclear/00093.png",
+              "filename": "00093.png"
+            },
+            {
+              "method": "omnieraser",
+              "src": "../random/rord/omnieraser/00093.png",
+              "filename": "00093.png"
+            },
+            {
+              "method": "omnipaint",
+              "src": "../random/rord/omnipaint/00093.png",
+              "filename": "00093.png"
+            },
+            {
+              "method": "flux-t400-alpha",
+              "src": "../random/rord/flux-t400-alpha/00093.png",
+              "filename": "00093.png"
+            },
+            {
+              "method": "bg",
+              "src": "../random/rord/bg/00093.png",
+              "filename": "00093.png"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "sourceId": "00115",
+          "images": [
+            {
+              "method": "shot",
+              "src": "../random/rord/shot/00115.png",
+              "filename": "00115.png"
+            },
+            {
+              "method": "objectclear",
+              "src": "../random/rord/objectclear/00115.png",
+              "filename": "00115.png"
+            },
+            {
+              "method": "omnieraser",
+              "src": "../random/rord/omnieraser/00115.png",
+              "filename": "00115.png"
+            },
+            {
+              "method": "omnipaint",
+              "src": "../random/rord/omnipaint/00115.png",
+              "filename": "00115.png"
+            },
+            {
+              "method": "flux-t400-alpha",
+              "src": "../random/rord/flux-t400-alpha/00115.png",
+              "filename": "00115.png"
+            },
+            {
+              "method": "bg",
+              "src": "../random/rord/bg/00115.png",
+              "filename": "00115.png"
+            }
+          ]
+        },
+        {
+          "index": 4,
           "sourceId": "00194",
           "images": [
             {
@@ -271,7 +343,7 @@ window.BENCH_SURVEY_CONFIG = {
           ]
         },
         {
-          "index": 3,
+          "index": 5,
           "sourceId": "00196",
           "images": [
             {
@@ -303,78 +375,6 @@ window.BENCH_SURVEY_CONFIG = {
               "method": "bg",
               "src": "../random/rord/bg/00196.png",
               "filename": "00196.png"
-            }
-          ]
-        },
-        {
-          "index": 4,
-          "sourceId": "00274",
-          "images": [
-            {
-              "method": "shot",
-              "src": "../random/rord/shot/00274.png",
-              "filename": "00274.png"
-            },
-            {
-              "method": "objectclear",
-              "src": "../random/rord/objectclear/00274.png",
-              "filename": "00274.png"
-            },
-            {
-              "method": "omnieraser",
-              "src": "../random/rord/omnieraser/00274.png",
-              "filename": "00274.png"
-            },
-            {
-              "method": "omnipaint",
-              "src": "../random/rord/omnipaint/00274.png",
-              "filename": "00274.png"
-            },
-            {
-              "method": "flux-t400-alpha",
-              "src": "../random/rord/flux-t400-alpha/00274.png",
-              "filename": "00274.png"
-            },
-            {
-              "method": "bg",
-              "src": "../random/rord/bg/00274.png",
-              "filename": "00274.png"
-            }
-          ]
-        },
-        {
-          "index": 5,
-          "sourceId": "00295",
-          "images": [
-            {
-              "method": "shot",
-              "src": "../random/rord/shot/00295.png",
-              "filename": "00295.png"
-            },
-            {
-              "method": "objectclear",
-              "src": "../random/rord/objectclear/00295.png",
-              "filename": "00295.png"
-            },
-            {
-              "method": "omnieraser",
-              "src": "../random/rord/omnieraser/00295.png",
-              "filename": "00295.png"
-            },
-            {
-              "method": "omnipaint",
-              "src": "../random/rord/omnipaint/00295.png",
-              "filename": "00295.png"
-            },
-            {
-              "method": "flux-t400-alpha",
-              "src": "../random/rord/flux-t400-alpha/00295.png",
-              "filename": "00295.png"
-            },
-            {
-              "method": "bg",
-              "src": "../random/rord/bg/00295.png",
-              "filename": "00295.png"
             }
           ]
         }
@@ -457,37 +457,37 @@ window.BENCH_SURVEY_CONFIG = {
         },
         {
           "index": 3,
-          "sourceId": "000023",
+          "sourceId": "000030",
           "images": [
             {
               "method": "shot",
-              "src": "../random/rb/shot/000023.png",
-              "filename": "000023.png"
+              "src": "../random/rb/shot/000030.png",
+              "filename": "000030.png"
             },
             {
               "method": "objectclear",
-              "src": "../random/rb/objectclear/000023.png",
-              "filename": "000023.png"
+              "src": "../random/rb/objectclear/000030.png",
+              "filename": "000030.png"
             },
             {
               "method": "omnieraser",
-              "src": "../random/rb/omnieraser/000023.png",
-              "filename": "000023.png"
+              "src": "../random/rb/omnieraser/000030.png",
+              "filename": "000030.png"
             },
             {
               "method": "omnipaint",
-              "src": "../random/rb/omnipaint/000023.png",
-              "filename": "000023.png"
+              "src": "../random/rb/omnipaint/000030.png",
+              "filename": "000030.png"
             },
             {
               "method": "flux-t400-alpha",
-              "src": "../random/rb/flux-t400-alpha/000023.png",
-              "filename": "000023.png"
+              "src": "../random/rb/flux-t400-alpha/000030.png",
+              "filename": "000030.png"
             },
             {
               "method": "bg",
-              "src": "../random/rb/bg/000023.png",
-              "filename": "000023.png"
+              "src": "../random/rb/bg/000030.png",
+              "filename": "000030.png"
             }
           ]
         },
@@ -940,42 +940,6 @@ window.BENCH_SURVEY_CONFIG = {
       "rows": [
         {
           "index": 1,
-          "sourceId": "00040",
-          "images": [
-            {
-              "method": "shot",
-              "src": "../random/omnipaint-p1/shot/00040.jpg",
-              "filename": "00040.jpg"
-            },
-            {
-              "method": "objectclear",
-              "src": "../random/omnipaint-p1/objectclear/00040.png",
-              "filename": "00040.png"
-            },
-            {
-              "method": "omnieraser",
-              "src": "../random/omnipaint-p1/omnieraser/00040.png",
-              "filename": "00040.png"
-            },
-            {
-              "method": "omnipaint",
-              "src": "../random/omnipaint-p1/omnipaint/00040.png",
-              "filename": "00040.png"
-            },
-            {
-              "method": "flux-t400-alpha",
-              "src": "../random/omnipaint-p1/flux-t400-alpha/00040.png",
-              "filename": "00040.png"
-            },
-            {
-              "method": "bg",
-              "src": "../random/omnipaint-p1/bg/00040.jpg",
-              "filename": "00040.jpg"
-            }
-          ]
-        },
-        {
-          "index": 2,
           "sourceId": "00121",
           "images": [
             {
@@ -985,8 +949,8 @@ window.BENCH_SURVEY_CONFIG = {
             },
             {
               "method": "objectclear",
-              "src": "../random/omnipaint-p1/objectclear/00121.png",
-              "filename": "00121.png"
+              "src": "../random/omnipaint-p1/objectclear/00176.png",
+              "filename": "00176.png"
             },
             {
               "method": "omnieraser",
@@ -1005,8 +969,44 @@ window.BENCH_SURVEY_CONFIG = {
             },
             {
               "method": "bg",
-              "src": "../random/omnipaint-p1/bg/00121.jpg",
-              "filename": "00121.jpg"
+              "src": "../random/omnipaint-p1/bg/00176.jpg",
+              "filename": "00176.jpg"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "sourceId": "00196",
+          "images": [
+            {
+              "method": "shot",
+              "src": "../random/omnipaint-p1/shot/00196.jpg",
+              "filename": "00196.jpg"
+            },
+            {
+              "method": "objectclear",
+              "src": "../random/omnipaint-p1/objectclear/00196.png",
+              "filename": "00196.png"
+            },
+            {
+              "method": "omnieraser",
+              "src": "../random/omnipaint-p1/omnieraser/00196.png",
+              "filename": "00196.png"
+            },
+            {
+              "method": "omnipaint",
+              "src": "../random/omnipaint-p1/omnipaint/00196.png",
+              "filename": "00196.png"
+            },
+            {
+              "method": "flux-t400-alpha",
+              "src": "../random/omnipaint-p1/flux-t400-alpha/00196.png",
+              "filename": "00196.png"
+            },
+            {
+              "method": "bg",
+              "src": "../random/omnipaint-p1/bg/00196.jpg",
+              "filename": "00196.jpg"
             }
           ]
         },
@@ -1021,8 +1021,8 @@ window.BENCH_SURVEY_CONFIG = {
             },
             {
               "method": "objectclear",
-              "src": "../random/omnipaint-p1/objectclear/00187.png",
-              "filename": "00187.png"
+              "src": "../random/omnipaint-p1/objectclear/00231.png",
+              "filename": "00231.png"
             },
             {
               "method": "omnieraser",
@@ -1057,8 +1057,8 @@ window.BENCH_SURVEY_CONFIG = {
             },
             {
               "method": "objectclear",
-              "src": "../random/omnipaint-p1/objectclear/00231.png",
-              "filename": "00231.png"
+              "src": "../random/omnipaint-p1/objectclear/00272.png",
+              "filename": "00272.png"
             },
             {
               "method": "omnieraser",
