@@ -18,10 +18,10 @@
   const columnLabels = {
     shot: "Input",
     bg: "Background",
-    objectclear: "A objectclear",
-    omnieraser: "B omnieraser",
-    omnipaint: "C omnipaint",
-    "flux-t400-alpha": "D flux-t400-alpha",
+    objectclear: "A",
+    omnieraser: "B",
+    omnipaint: "C",
+    "flux-t400-alpha": "D",
   };
 
   const state = new Map();
@@ -193,9 +193,7 @@
       bench.rows.forEach((row) => {
         const selected = state.get(rowKey(bench.name, row.index));
         lines.push(
-          `${bench.name}-${row.index}: ${
-            selected ? `${selected.choice} (${selected.method})` : "未选择"
-          }`,
+          `${bench.name}-${row.index}: ${selected ? selected.choice : "未选择"}`,
         );
       });
     });
