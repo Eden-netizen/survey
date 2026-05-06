@@ -78,6 +78,14 @@ Replace it with your real anonymous questionnaire URL, then regenerate:
 .\survey\Scripts\python.exe code\config.py
 ```
 
+If your questionnaire supports URL prefill, also set:
+
+```python
+SURVEY_TEXT_PARAM = "answer"
+```
+
+Use the actual query parameter name from the questionnaire system. If it does not support URL prefill, leave this empty and use the page's copy button, then paste the selected answers into the questionnaire.
+
 ## Image Layout
 
 The page reads only from `random`. Each bench is rendered as one section. Each section has 5 rows. Each row is ordered left to right as:

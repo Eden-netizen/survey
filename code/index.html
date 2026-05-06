@@ -20,25 +20,36 @@
     <main>
       <section class="intro">
         <div>
-          <h2>请按每个 Bench 分区比较图像结果</h2>
+          <h2>按 Bench 分区选择最佳模型</h2>
           <p>
-            每个分区包含 5 个随机样例。每一行从左到右依次为
-            shot、objectclear、omnieraser、omnipaint、flux-t400-alpha、bg。
+            每个分区包含 5 个随机样例。每行左侧为输入图，右侧为目标背景；
+            中间四个模型结果分别标为 A、B、C、D，请在每行选择一个结果。
           </p>
         </div>
-        <div class="copy-panel">
-          <span>当前页面顺序</span>
-          <button id="copyOrderButton" type="button">复制顺序</button>
+        <div class="progress-panel">
+          <span id="progressText">已选择 0 / 30</span>
+          <button id="copyTopButton" type="button">复制所选</button>
         </div>
       </section>
 
       <nav class="bench-nav" id="benchNav" aria-label="Bench navigation"></nav>
       <div id="benchRoot" class="bench-root"></div>
+
+      <section class="answer-panel" id="answerPanel">
+        <div>
+          <h2>所选答案</h2>
+          <p>复制下面内容后，打开匿名问卷并粘贴提交。</p>
+        </div>
+        <textarea id="answerText" readonly rows="8" aria-label="Selected answers"></textarea>
+      </section>
     </main>
 
     <footer class="site-footer">
-      <span>完成比较后，请返回匿名问卷提交选择。</span>
-      <a id="surveyBottomLink" href="#" target="_blank" rel="noreferrer">跳转匿名问卷</a>
+      <span id="footerProgressText">已选择 0 / 30</span>
+      <div class="footer-actions">
+        <button id="copyBottomButton" type="button">复制所选选项</button>
+        <a id="surveyBottomLink" href="#" target="_blank" rel="noreferrer">打开匿名问卷</a>
+      </div>
     </footer>
 
     <script src="./manifest.js"></script>

@@ -18,7 +18,13 @@ METHOD_ORDER = [
     "bg",
 ]
 
+# Replace this with the real anonymous questionnaire URL.
 SURVEY_URL = "https://example.com/replace-with-your-anonymous-survey"
+
+# Optional: if the questionnaire supports URL prefill, put the text field
+# query parameter name here. Leave empty to use copy-and-paste submission.
+# Example: SURVEY_TEXT_PARAM = "answer"
+SURVEY_TEXT_PARAM = ""
 
 
 def image_sort_key(path: Path) -> tuple[str, str]:
@@ -71,6 +77,7 @@ def build_manifest() -> dict:
 
     return {
         "surveyUrl": SURVEY_URL,
+        "surveyTextParam": SURVEY_TEXT_PARAM,
         "methodOrder": METHOD_ORDER,
         "benches": benches,
     }
