@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image Bench Survey</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Anonymous Image Evaluation</p>
+        <h1>Image Bench Survey</h1>
+      </div>
+      <a class="survey-link" id="surveyTopLink" href="#" target="_blank" rel="noreferrer">
+        打开匿名问卷
+      </a>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div>
+          <h2>请按每个 Bench 分区比较图像结果</h2>
+          <p>
+            每个分区包含 5 个随机样例。每一行从左到右依次为
+            shot、objectclear、omnieraser、omnipaint、flux-t400-alpha、bg。
+          </p>
+        </div>
+        <div class="copy-panel">
+          <span>当前页面顺序</span>
+          <button id="copyOrderButton" type="button">复制顺序</button>
+        </div>
+      </section>
+
+      <nav class="bench-nav" id="benchNav" aria-label="Bench navigation"></nav>
+      <div id="benchRoot" class="bench-root"></div>
+    </main>
+
+    <footer class="site-footer">
+      <span>完成比较后，请返回匿名问卷提交选择。</span>
+      <a id="surveyBottomLink" href="#" target="_blank" rel="noreferrer">跳转匿名问卷</a>
+    </footer>
+
+    <script src="./manifest.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
