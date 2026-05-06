@@ -50,6 +50,8 @@
 
   copyTopButton.addEventListener("click", copyAnswers);
   copyBottomButton.addEventListener("click", copyAnswers);
+  topLink.addEventListener("click", openSurveyWithAnswers);
+  bottomLink.addEventListener("click", openSurveyWithAnswers);
 
   updateSummary();
 
@@ -156,6 +158,21 @@
       answerText.select();
       setCopyLabel("手动复制");
     }
+  }
+
+  async function openSurveyWithAnswers(event) {
+    event.preventDefault();
+    const text = buildAnswerText();
+    answerText.value = text;
+
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      answerText.focus();
+      answerText.select();
+    }
+
+    window.open(buildSurveyUrl(text), "_blank", "noreferrer");
   }
 
   function updateSummary() {

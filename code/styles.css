@@ -213,9 +213,6 @@ main {
 }
 
 .table-head {
-  position: sticky;
-  top: 142px;
-  z-index: 2;
   border-bottom: 1px solid var(--line);
   background: #fafaf8;
 }
