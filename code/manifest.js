@@ -940,12 +940,12 @@ window.BENCH_SURVEY_CONFIG = {
       "rows": [
         {
           "index": 1,
-          "sourceId": "00121",
+          "sourceId": "00176",
           "images": [
             {
               "method": "shot",
-              "src": "../random/omnipaint-p1/shot/00121.jpg",
-              "filename": "00121.jpg"
+              "src": "../random/omnipaint-p1/shot/00176.jpg",
+              "filename": "00176.jpg"
             },
             {
               "method": "objectclear",
@@ -954,13 +954,13 @@ window.BENCH_SURVEY_CONFIG = {
             },
             {
               "method": "omnieraser",
-              "src": "../random/omnipaint-p1/omnieraser/00121.png",
-              "filename": "00121.png"
+              "src": "../random/omnipaint-p1/omnieraser/00176.png",
+              "filename": "00176.png"
             },
             {
               "method": "omnipaint",
-              "src": "../random/omnipaint-p1/omnipaint/00121.png",
-              "filename": "00121.png"
+              "src": "../random/omnipaint-p1/omnipaint/00176.png",
+              "filename": "00176.png"
             },
             {
               "method": "flux-t400-alpha",
