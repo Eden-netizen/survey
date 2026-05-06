@@ -1,5 +1,5 @@
 window.BENCH_SURVEY_CONFIG = {
-  "surveyUrl": "https://example.com/replace-with-your-anonymous-survey",
+  "surveyUrl": "https://wj.qq.com/edit/v2?sid=26570547",
   "surveyTextParam": "answer",
   "methodOrder": [
     "shot",

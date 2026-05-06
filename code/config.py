@@ -19,7 +19,7 @@ METHOD_ORDER = [
 ]
 
 # Replace this with the real anonymous questionnaire URL.
-SURVEY_URL = "https://example.com/replace-with-your-anonymous-survey"
+SURVEY_URL = "https://wj.qq.com/edit/v2?sid=26570547"
 
 # Optional: if the questionnaire supports URL prefill, put the text field
 # query parameter name here. Leave empty to use copy-and-paste submission.
