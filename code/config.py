@@ -24,7 +24,7 @@ SURVEY_URL = "https://example.com/replace-with-your-anonymous-survey"
 # Optional: if the questionnaire supports URL prefill, put the text field
 # query parameter name here. Leave empty to use copy-and-paste submission.
 # Example: SURVEY_TEXT_PARAM = "answer"
-SURVEY_TEXT_PARAM = ""
+SURVEY_TEXT_PARAM = "answer"
 
 
 def image_sort_key(path: Path) -> tuple[str, str]:

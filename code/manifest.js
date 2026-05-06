@@ -1,6 +1,6 @@
 window.BENCH_SURVEY_CONFIG = {
   "surveyUrl": "https://example.com/replace-with-your-anonymous-survey",
-  "surveyTextParam": "",
+  "surveyTextParam": "answer",
   "methodOrder": [
     "shot",
     "objectclear",
