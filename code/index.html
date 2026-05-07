@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Image Bench Survey</title>
-    <link rel="stylesheet" href="./styles.css?v=20260507-1" />
+    <link rel="stylesheet" href="./styles.css?v=20260507-2" />
   </head>
   <body>
     <header class="site-header">
@@ -52,7 +52,12 @@
       </div>
     </footer>
 
-    <script src="./manifest.js?v=20260507-1"></script>
-    <script src="./app.js?v=20260507-1"></script>
+    <div class="image-modal" id="imageModal" aria-hidden="true">
+      <button class="modal-close" id="modalCloseButton" type="button" aria-label="关闭大图">×</button>
+      <img id="modalImage" alt="" />
+    </div>
+
+    <script src="./manifest.js?v=20260507-2"></script>
+    <script src="./app.js?v=20260507-2"></script>
   </body>
 </html>

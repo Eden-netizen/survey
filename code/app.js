@@ -36,6 +36,9 @@
   const progressText = document.getElementById("progressText");
   const footerProgressText = document.getElementById("footerProgressText");
   const answerText = document.getElementById("answerText");
+  const imageModal = document.getElementById("imageModal");
+  const modalImage = document.getElementById("modalImage");
+  const modalCloseButton = document.getElementById("modalCloseButton");
 
   topLink.href = buildSurveyUrl();
   bottomLink.href = buildSurveyUrl();
@@ -52,6 +55,17 @@
   copyBottomButton.addEventListener("click", copyAnswers);
   topLink.addEventListener("click", openSurveyWithAnswers);
   bottomLink.addEventListener("click", openSurveyWithAnswers);
+  modalCloseButton.addEventListener("click", closeImageModal);
+  imageModal.addEventListener("click", (event) => {
+    if (event.target === imageModal) {
+      closeImageModal();
+    }
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeImageModal();
+    }
+  });
 
   updateSummary();
 
@@ -118,12 +132,22 @@
       <div class="cell image-cell ${option ? "model-cell" : "reference-cell"}" role="cell">
         <div class="image-frame">
           ${option ? `<div class="choice-badge">${option.label}</div>` : ""}
-          <img src="${escapeHtml(image.src)}" alt="${escapeHtml(label)}" loading="lazy" />
+          <img src="${escapeHtml(image.src)}" alt="${escapeHtml(label)}" loading="lazy" data-full-src="${escapeHtml(
+            image.src,
+          )}" />
         </div>
         ${button}
       </div>
     `;
   }
+
+  document.addEventListener("dblclick", (event) => {
+    const image = event.target.closest(".image-frame img");
+    if (!image) {
+      return;
+    }
+    openImageModal(image.dataset.fullSrc || image.src, image.alt);
+  });
 
   document.addEventListener("click", (event) => {
     const button = event.target.closest(".choice-button");
@@ -221,6 +245,21 @@
 
   function rowKey(benchName, rowIndex) {
     return `${benchName}:${rowIndex}`;
+  }
+
+  function openImageModal(src, alt) {
+    modalImage.src = src;
+    modalImage.alt = alt || "preview image";
+    imageModal.classList.add("is-open");
+    imageModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+  }
+
+  function closeImageModal() {
+    imageModal.classList.remove("is-open");
+    imageModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+    modalImage.removeAttribute("src");
   }
 
   function cssEscape(value) {
