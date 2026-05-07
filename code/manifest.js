@@ -606,42 +606,6 @@ window.BENCH_SURVEY_CONFIG = {
         },
         {
           "index": 2,
-          "sourceId": "00028",
-          "images": [
-            {
-              "method": "shot",
-              "src": "../random/anime/shot/00028.png",
-              "filename": "00028.png"
-            },
-            {
-              "method": "objectclear",
-              "src": "../random/anime/objectclear/00028.png",
-              "filename": "00028.png"
-            },
-            {
-              "method": "omnieraser",
-              "src": "../random/anime/omnieraser/00028.png",
-              "filename": "00028.png"
-            },
-            {
-              "method": "omnipaint",
-              "src": "../random/anime/omnipaint/00028.png",
-              "filename": "00028.png"
-            },
-            {
-              "method": "flux-t400-alpha",
-              "src": "../random/anime/flux-t400-alpha/00028.png",
-              "filename": "00028.png"
-            },
-            {
-              "method": "bg",
-              "src": "../random/anime/bg/00028.png",
-              "filename": "00028.png"
-            }
-          ]
-        },
-        {
-          "index": 3,
           "sourceId": "00052",
           "images": [
             {
@@ -677,7 +641,7 @@ window.BENCH_SURVEY_CONFIG = {
           ]
         },
         {
-          "index": 4,
+          "index": 3,
           "sourceId": "00057",
           "images": [
             {
@@ -713,38 +677,74 @@ window.BENCH_SURVEY_CONFIG = {
           ]
         },
         {
-          "index": 5,
-          "sourceId": "00118",
+          "index": 4,
+          "sourceId": "00096",
           "images": [
             {
               "method": "shot",
-              "src": "../random/anime/shot/00118.png",
-              "filename": "00118.png"
+              "src": "../random/anime/shot/00096.png",
+              "filename": "00096.png"
             },
             {
               "method": "objectclear",
-              "src": "../random/anime/objectclear/00118.png",
-              "filename": "00118.png"
+              "src": "../random/anime/objectclear/00096.png",
+              "filename": "00096.png"
             },
             {
               "method": "omnieraser",
-              "src": "../random/anime/omnieraser/00118.png",
-              "filename": "00118.png"
+              "src": "../random/anime/omnieraser/00096.png",
+              "filename": "00096.png"
             },
             {
               "method": "omnipaint",
-              "src": "../random/anime/omnipaint/00118.png",
-              "filename": "00118.png"
+              "src": "../random/anime/omnipaint/00096.png",
+              "filename": "00096.png"
             },
             {
               "method": "flux-t400-alpha",
-              "src": "../random/anime/flux-t400-alpha/00118.png",
-              "filename": "00118.png"
+              "src": "../random/anime/flux-t400-alpha/00096.png",
+              "filename": "00096.png"
             },
             {
               "method": "bg",
-              "src": "../random/anime/bg/00118.png",
-              "filename": "00118.png"
+              "src": "../random/anime/bg/00096.png",
+              "filename": "00096.png"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "sourceId": "00152",
+          "images": [
+            {
+              "method": "shot",
+              "src": "../random/anime/shot/00152.png",
+              "filename": "00152.png"
+            },
+            {
+              "method": "objectclear",
+              "src": "../random/anime/objectclear/00152.png",
+              "filename": "00152.png"
+            },
+            {
+              "method": "omnieraser",
+              "src": "../random/anime/omnieraser/00152.png",
+              "filename": "00152.png"
+            },
+            {
+              "method": "omnipaint",
+              "src": "../random/anime/omnipaint/00152.png",
+              "filename": "00152.png"
+            },
+            {
+              "method": "flux-t400-alpha",
+              "src": "../random/anime/flux-t400-alpha/00152.png",
+              "filename": "00152.png"
+            },
+            {
+              "method": "bg",
+              "src": "../random/anime/bg/00152.png",
+              "filename": "00152.png"
             }
           ]
         }
