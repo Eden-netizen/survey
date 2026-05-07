@@ -43,21 +43,31 @@ def build_manifest() -> dict:
         if not bench_dir.exists():
             continue
 
-        method_files: dict[str, list[Path]] = {}
+        method_files: dict[str, dict[str, Path]] = {}
         for method in METHOD_ORDER:
             method_dir = bench_dir / method
             if method_dir.exists():
-                method_files[method] = sorted(
-                    [p for p in method_dir.iterdir() if p.is_file()],
-                    key=image_sort_key,
-                )[:5]
+                method_files[method] = {
+                    path.stem: path
+                    for path in sorted(
+                        [p for p in method_dir.iterdir() if p.is_file()],
+                        key=image_sort_key,
+                    )
+                }
 
-        row_count = min((len(files) for files in method_files.values()), default=0)
+        if any(method not in method_files for method in METHOD_ORDER):
+            continue
+
+        common_ids = set(method_files[METHOD_ORDER[0]])
+        for method in METHOD_ORDER[1:]:
+            common_ids &= set(method_files[method])
+
+        source_ids = sorted(common_ids)[:5]
         rows = []
-        for index in range(row_count):
+        for index, source_id in enumerate(source_ids):
             row = []
             for method in METHOD_ORDER:
-                path = method_files[method][index]
+                path = method_files[method][source_id]
                 row.append(
                     {
                         "method": method,
@@ -68,7 +78,7 @@ def build_manifest() -> dict:
             rows.append(
                 {
                     "index": index + 1,
-                    "sourceId": method_files[METHOD_ORDER[0]][index].stem,
+                    "sourceId": source_id,
                     "images": row,
                 }
             )
